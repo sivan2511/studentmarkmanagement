@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="result1.css">
+  <title>Student Management System</title>
+</head>
+<body>
+  <div class="container">
+    <div class="colorr">
+    <h1>Student Management System</h1>
+    </div>
+    <div class="form-container">
+      <form id="resultForm">
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="roll">Reg Number:</label>
+        <input type="text" id="roll" name="roll" required />
+        <label for="HTML">HTML:</label>
+        <input type="number" id="HTML" name="HTML" min="0" max="100" required />
+        <label for="CSS">CSS:</label>
+        <input type="number" id="CSS" name="CSS" min="0" max="100" required />
+        <label for="JavaScript">JavaScript:</label>
+        <input type="number" id="JavaScript" name="JavaScript" min="0" max="100" required />
+        <button type="submit">Add Result</button>
+      </form>
+    </div>
+    <div class="table-container">
+      <table id="resultTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>HTML Marks</th>
+            <th>CSS Marks</th>
+            <th>JavaScript Marks</th>
+            <th>Total</th>
+            <th>Percentage</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="result1.js"></script>
+</body>
+</html>
